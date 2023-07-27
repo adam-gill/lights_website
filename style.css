@@ -1,25 +1,75 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   margin: 0;
+  padding: 0;
+  background-color: #228B22; /* Dark Green */
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
-.button-container {
+header {
+  background-color: #0f752f; /* Slightly Darker Green */
+  padding: 20px;
   text-align: center;
 }
 
-.free-estimate-button {
-  padding: 15px 30px;
-  font-size: 18px;
-  background-color: #e74c3c;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.business-name {
+  font-size: 36px;
+  margin: 0;
 }
 
-.free-estimate-button:hover {
-  background-color: #c0392b;
+nav {
+  background-color: #228B22; /* Light Blue */
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
 }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #1B98E0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.free-estimate-btn {
+  background-color: #FF4500; /* Red-Orange */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.free-estimate-btn:hover {
+  background-color: #FF6347; /* Slightly darker shade on hover */
+}
+
+/* Festive decorations */
+header::before {
