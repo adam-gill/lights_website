@@ -1,0 +1,44 @@
+.heading {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    text-align: center;
+    color: #05386b;
+    font-weight: bolder;
+}
+
+.subheading {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.25em;
+    text-align: center;
+    color: #05386b;
+    font-weight: bolder;
+}
+
+.textbox {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.25em;
+    text-align: center;
+    color: #05386b;
+    font-weight: bolder;
+    width: 20em;
+}
+
+.submitbutton {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.25em;
+    text-align: center;
+    color: #49c5b6;
+    font-weight: bolder;
+    background-color: #05386b;
+    border: 2px solid #05386b;
+    
+
+}
+
+.textboxes {
+    margin-bottom: 100px;
+}
+
+.background {
+    background-color: #49c5b6;
+}
